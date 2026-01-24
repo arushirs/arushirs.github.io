@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arushi Saravanan's Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- ===================== HEADER / NAV ===================== -->
+    <header class="site-header">
+      <div class="logo-block">
+        <div class="logo-mark"></div>
+        <div class="logo-text">
+          <div>Arushi</div>
+          <div>Saravanan</div>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="social-icons">
+        <a href="#" aria-label="Medium">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M2 4v16h20V4H2zm6.885 4.5c1.517 0 2.748 1.79 2.748 4.003 0 2.212-1.231 4.002-2.748 4.002-1.517 0-2.748-1.79-2.748-4.002 0-2.213 1.231-4.003 2.748-4.003zm6.23 0c1.446 0 2.62 1.79 2.62 4.003 0 2.212-1.174 4.002-2.62 4.002-1.447 0-2.621-1.79-2.621-4.002 0-2.213 1.174-4.003 2.621-4.003zm4.19.277h.294v7.45h-.294c-.66 0-1.196-1.667-1.196-3.725 0-2.059.536-3.725 1.196-3.725z"
+            />
+          </svg>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M22 5.8c-.7.3-1.4.5-2.2.6.8-.5 1.4-1.2 1.7-2.1-.7.4-1.5.7-2.4.9-1.4-1.5-4-1-4.8.9-.4.9-.3 1.9.1 2.7-2.8-.1-5.2-1.5-6.8-3.6-.9 1.5-.4 3.4 1 4.4-.6 0-1.1-.2-1.6-.4 0 1.7 1.2 3.2 2.9 3.5-.5.1-1.1.1-1.6 0 .4 1.4 1.8 2.5 3.4 2.5-1.3 1-2.9 1.5-4.5 1.5H2c1.6 1 3.5 1.6 5.5 1.6 6.6 0 10.3-5.7 10-10.8.7-.5 1.3-1.1 1.7-1.8z"
+            />
+          </svg>
+        </a>
+        <a href="#" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M6.9 9.5H4V20h2.9V9.5zM5.4 4C4.6 4 4 4.6 4 5.4c0 .8.6 1.4 1.4 1.4.8 0 1.4-.6 1.4-1.4C6.8 4.6 6.2 4 5.4 4zM20 14.1c0-2.7-1.4-4-3.4-4-1.6 0-2.3.9-2.7 1.5v-1.2H11V20h2.9v-5.2c0-1.4.3-2.7 2-2.7 1.7 0 1.7 1.6 1.7 2.8V20H20v-5.9z"
+            />
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <!-- ===================== HERO ===================== -->
+    <section id="home" class="hero">
+      <div class="hero-card">
+        <h1>Arushi<br />Saravanan</h1>
+        <p class="subtitle">Aspiring Lawyer<br />Passionate about _research interests_</p>
+        <!-- <div class="cta-row">
+          <div class="arrow-line">
+            <span></span>
+          </div>
+          <button class="btn-primary">Get a Quote</button>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="about section">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I'm a paragraph. bjkdhfkjhgj
+        </p>
+        <div class="cta-row">
+          <div class="arrow-line">
+            <span></span>
+          </div>
+          <button class="btn-primary">Read More</button>
+        </div>
+      </div>
+      <div class="about-image"></div>
+    </section>
+
+    <!-- ===================== BLOGS ===================== -->
+    <section id="blogs" class="blogs section">
+      <div class="blogs-header">
+        <h2>Blogs</h2>
+        <p>Thoughts and notes on law, policy, and research.</p>
+      </div>
+      <div class="blogs-grid">
+        <button
+          class="blog-card"
+          type="button"
+          data-title="Mapping the Right to Privacy in Digital Evidence"
+          data-date="Jan 10, 2026"
+          data-desc="A quick look at how courts treat metadata in digital searches."
+          data-img1="./assets/hero.svg"
+          data-img2="./assets/about.svg"
+          data-img3="./assets/law_better.png"
+        >
+          <img
+            class="blog-thumb"
+            src="./assets/law_better.png"
+            alt="Abstract law gavel illustration"
+          />
+          <h3>Mapping the Right to Privacy in Digital Evidence</h3>
+          <p>A quick look at how courts treat metadata in digital searches.</p>
+          <span class="blog-date">Jan 10, 2026</span>
+        </button>
+        <button
+          class="blog-card"
+          type="button"
+          data-title="Community Mediation and Restorative Pathways"
+          data-date="Dec 22, 2025"
+          data-desc="Why early mediation can reduce long-term litigation burdens."
+          data-img1="./assets/law.png"
+          data-img2="./assets/hero.svg"
+          data-img3="./assets/about.svg"
+        >
+          <img
+            class="blog-thumb"
+            src="./assets/law.png"
+            alt="Justice scale silhouette"
+          />
+          <h3>Community Mediation and Restorative Pathways</h3>
+          <p>Why early mediation can reduce long-term litigation burdens.</p>
+          <span class="blog-date">Dec 22, 2025</span>
+        </button>
+        <button
+          class="blog-card"
+          type="button"
+          data-title="Reading the Fine Print of Environmental Impact"
+          data-date="Nov 30, 2025"
+          data-desc="Notes on how policy language shapes compliance outcomes."
+          data-img1="./assets/about.svg"
+          data-img2="./assets/law_better.png"
+          data-img3="./assets/law.png"
+        >
+          <img
+            class="blog-thumb"
+            src="./assets/about.svg"
+            alt="Minimal research notebook icon"
+          />
+          <h3>Reading the Fine Print of Environmental Impact</h3>
+          <p>Notes on how policy language shapes compliance outcomes.</p>
+          <span class="blog-date">Nov 30, 2025</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ===================== ACHIEVEMENTS ===================== -->
+    <section id="achievements" class="achievements section">
+      <div class="achievements-header">
+        <h2>Achievements</h2>
+        <p>Highlights from competitions, research, and leadership.</p>
+      </div>
+      <ul class="achievements-list">
+        <li>
+          <span class="achievement-title">National Debate Finalist</span>
+          <span class="achievement-meta">2025 · Finalist at the National Inter-College Debate Championship.</span>
+        </li>
+        <li>
+          <span class="achievement-title">National Debate Finalist</span>
+          <span class="achievement-meta">2025 · Finalist at the National Inter-College Debate Championship.</span>
+        </li>
+        <li>
+          <span class="achievement-title">Research Paper Shortlisted</span>
+          <span class="achievement-meta">2024 · Emerging Scholars track for policy analysis.</span>
+        </li>
+        <li>
+          <span class="achievement-title">Leadership Fellowship</span>
+          <span class="achievement-meta">2023 · University Leadership & Service Fellowship.</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===================== CONTACT / FOOTER ===================== -->
+    <section id="contact" class="contact">
+      <div class="contact-header">
+        <h2>Sign up for new blog alerts!</h2>
+        <h2>Questions?</h2>
+      </div>
+      <div class="contact-body">
+        <form class="quote-form">
+          <div class="form-row">
+            <label>
+              Email *
+              <input type="email" required />
+            </label>
+          </div>
+          <button class="btn-primary submit-btn" type="submit">Sign Up</button>
+        </form>
+        <div class="contact-info">
+          <h3>Contact Me<br /></h3>
+          <p class="brand">Arushi Saravanan<br />Aspiring Lawyer</p>
+          <p>arushisaravanan2004@gmail.com</p>
+          <p>Tel: +91 9840000000</p>
+          <p>500 Terry Francine Street</p>
+          <p>Chennai, TN 600001</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Medium">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M2 4v16h20V4H2zm6.885 4.5c1.517 0 2.748 1.79 2.748 4.003 0 2.212-1.231 4.002-2.748 4.002-1.517 0-2.748-1.79-2.748-4.002 0-2.213 1.231-4.003 2.748-4.003zm6.23 0c1.446 0 2.62 1.79 2.62 4.003 0 2.212-1.174 4.002-2.62 4.002-1.447 0-2.621-1.79-2.621-4.002 0-2.213 1.174-4.003 2.621-4.003zm4.19.277h.294v7.45h-.294c-.66 0-1.196-1.667-1.196-3.725 0-2.059.536-3.725 1.196-3.725z"
+                />
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M22 5.8c-.7.3-1.4.5-2.2.6.8-.5 1.4-1.2 1.7-2.1-.7.4-1.5.7-2.4.9-1.4-1.5-4-1-4.8.9-.4.9-.3 1.9.1 2.7-2.8-.1-5.2-1.5-6.8-3.6-.9 1.5-.4 3.4 1 4.4-.6 0-1.1-.2-1.6-.4 0 1.7 1.2 3.2 2.9 3.5-.5.1-1.1.1-1.6 0 .4 1.4 1.8 2.5 3.4 2.5-1.3 1-2.9 1.5-4.5 1.5H2c1.6 1 3.5 1.6 5.5 1.6 6.6 0 10.3-5.7 10-10.8.7-.5 1.3-1.1 1.7-1.8z"
+                />
+              </svg>
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M6.9 9.5H4V20h2.9V9.5zM5.4 4C4.6 4 4 4.6 4 5.4c0 .8.6 1.4 1.4 1.4.8 0 1.4-.6 1.4-1.4C6.8 4.6 6.2 4 5.4 4zM20 14.1c0-2.7-1.4-4-3.4-4-1.6 0-2.3.9-2.7 1.5v-1.2H11V20h2.9v-5.2c0-1.4.3-2.7 2-2.7 1.7 0 1.7 1.6 1.7 2.8V20H20v-5.9z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="blog-modal" aria-hidden="true">
+      <div class="blog-modal-overlay" data-close="true"></div>
+      <div class="blog-modal-content" role="dialog" aria-modal="true" aria-labelledby="blog-modal-title">
+        <button class="blog-modal-close" type="button" aria-label="Close blog">
+          &times;
+        </button>
+        <p class="blog-modal-date" id="blog-modal-date"></p>
+        <h3 id="blog-modal-title"></h3>
+        <p class="blog-modal-desc" id="blog-modal-desc"></p>
+        <div class="blog-modal-images">
+          <img src="./assets/hero.svg" alt="Blog visual one" />
+          <img src="./assets/about.svg" alt="Blog visual two" />
+          <img src="./assets/law_better.png" alt="Blog visual three" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const blogCards = document.querySelectorAll(".blog-card");
+      const blogModal = document.querySelector(".blog-modal");
+      const blogTitle = document.getElementById("blog-modal-title");
+      const blogDate = document.getElementById("blog-modal-date");
+      const blogDesc = document.getElementById("blog-modal-desc");
+      const blogImages = blogModal.querySelectorAll(".blog-modal-images img");
+      const closeButton = blogModal.querySelector(".blog-modal-close");
+
+      const openBlogModal = (card) => {
+        blogTitle.textContent = card.dataset.title;
+        blogDate.textContent = card.dataset.date;
+        blogDesc.textContent = card.dataset.desc;
+        blogImages[0].src = card.dataset.img1;
+        blogImages[1].src = card.dataset.img2;
+        blogImages[2].src = card.dataset.img3;
+        blogModal.setAttribute("aria-hidden", "false");
+        document.body.classList.add("modal-open");
+        closeButton.focus();
+      };
+
+      const closeBlogModal = () => {
+        blogModal.setAttribute("aria-hidden", "true");
+        document.body.classList.remove("modal-open");
+      };
+
+      blogCards.forEach((card) => {
+        card.addEventListener("click", () => openBlogModal(card));
+      });
+
+      blogModal.addEventListener("click", (event) => {
+        if (event.target.matches("[data-close='true']")) {
+          closeBlogModal();
+        }
+      });
+
+      closeButton.addEventListener("click", closeBlogModal);
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && document.body.classList.contains("modal-open")) {
+          closeBlogModal();
+        }
+      });
+    </script>
+  </body>
+</html>
+
