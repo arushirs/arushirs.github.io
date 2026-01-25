@@ -5,8 +5,8 @@
       <stop offset="100%" stop-color="#7f8c99" />
     </linearGradient>
   </defs>
-  <rect width="900" height="700" fill="url(#grad)" />
-  <rect x="0" y="0" width="900" height="700" fill="#000000" opacity="0.18" />
+  <rect width="400" height="500" fill="url(#grad)" />
+  <rect x="0" y="0" width="400" height="500" fill="#000000" opacity="0.18" />
   <text x="60" y="110" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#ffffff" opacity="0.85">
     Replace with the portrait photo for an exact match
   </text>
