@@ -87,7 +87,7 @@
       </div>
       <div class="blogs-grid">
         <a
-  class="blog-card"
+class="blog-card"
   href="./blogs/Balancing Contempt Powers with Litigant Rights.pdf"
 >
 
@@ -99,6 +99,16 @@
           <h3>Contempt of court vs. Litigant rights</h3>
           <p>A quick look at how courts treat 'contempt of court cases'.</p>
           <span class="blog-date">Jan 10, 2026</span>
+        </a>
+        <a class="blog-card">
+          <img
+            class="blog-thumb"
+            src="./assets/law_better.png"
+            alt="Abstract law gavel illustration"
+          />
+          <h3>New blogs on the way</h3>
+          <p>Fresh research and reflections are in progress.</p>
+          <span class="blog-date">Coming soon</span>
         </a>
       </div>
     </section>
@@ -163,67 +173,6 @@
       </div>
     </section>
 
-    <div class="blog-modal" aria-hidden="true">
-      <div class="blog-modal-overlay" data-close="true"></div>
-      <div class="blog-modal-content" role="dialog" aria-modal="true" aria-labelledby="blog-modal-title">
-        <button class="blog-modal-close" type="button" aria-label="Close blog">
-          &times;
-        </button>
-        <p class="blog-modal-date" id="blog-modal-date"></p>
-        <h3 id="blog-modal-title"></h3>
-        <p class="blog-modal-desc" id="blog-modal-desc"></p>
-        <div class="blog-modal-images">
-          <img src="./assets/hero.svg" alt="Blog visual one" />
-          <img src="./assets/about.svg" alt="Blog visual two" />
-          <img src="./assets/law_better.png" alt="Blog visual three" />
-        </div>
-      </div>
-    </div>
-
-    <script>
-      const blogCards = document.querySelectorAll(".blog-card");
-      const blogModal = document.querySelector(".blog-modal");
-      const blogTitle = document.getElementById("blog-modal-title");
-      const blogDate = document.getElementById("blog-modal-date");
-      const blogDesc = document.getElementById("blog-modal-desc");
-      const blogImages = blogModal.querySelectorAll(".blog-modal-images img");
-      const closeButton = blogModal.querySelector(".blog-modal-close");
-
-      const openBlogModal = (card) => {
-        blogTitle.textContent = card.dataset.title;
-        blogDate.textContent = card.dataset.date;
-        blogDesc.textContent = card.dataset.desc;
-        blogImages[0].src = card.dataset.img1;
-        blogImages[1].src = card.dataset.img2;
-        blogImages[2].src = card.dataset.img3;
-        blogModal.setAttribute("aria-hidden", "false");
-        document.body.classList.add("modal-open");
-        closeButton.focus();
-      };
-
-      const closeBlogModal = () => {
-        blogModal.setAttribute("aria-hidden", "true");
-        document.body.classList.remove("modal-open");
-      };
-
-      blogCards.forEach((card) => {
-        card.addEventListener("click", () => openBlogModal(card));
-      });
-
-      blogModal.addEventListener("click", (event) => {
-        if (event.target.matches("[data-close='true']")) {
-          closeBlogModal();
-        }
-      });
-
-      closeButton.addEventListener("click", closeBlogModal);
-
-      document.addEventListener("keydown", (event) => {
-        if (event.key === "Escape" && document.body.classList.contains("modal-open")) {
-          closeBlogModal();
-        }
-      });
-    </script>
   </body>
 </html>
 
